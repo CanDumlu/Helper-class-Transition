@@ -1,0 +1,35 @@
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    list-style:none;
+    font:size 16px;
+    padding: 8px 16px;
+    cursor:pointer;
+}
+.btn-pri{
+    background-color:#245953;
+    border:#245953 2px solid;
+    color:#D8D8D8;
+    transition:background-color .5s;
+}
+.btn-pri:hover{
+    background-color:#408E91;
+}
+.btn-scn{
+    border:#245953 2px solid;
+    color:#245953;
+    transition:background-color .5s;
+}
+.btn-scn:hover{
+    background-color:#408E91;
+    color:#D8D8D8;
+}
+.btn-tri{
+    background-color:#245953;
+    border:#245953 2px solid;
+    color:#D8D8D8;
+    transition:box-shadow .5s;
+}
+.btn-tri:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
